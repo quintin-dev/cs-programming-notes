@@ -1,0 +1,99 @@
+# Programming Repository - Obsidian Vault Gitignore
+# Specialized for Computer Science Programming Notes
+
+# === OBSIDIAN VAULT FILES ===
+# Obsidian configuration and cache files
+.obsidian/
+.obsidian-git-data
+*.obsidian-git-data
+
+# Obsidian workspace files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian plugins and themes
+.obsidian/plugins/*/
+.obsidian/themes/*/
+
+# Obsidian cache
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/canvas.json
+
+# Obsidian trash
+.trash/
+
+# === OPERATING SYSTEM FILES ===
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# === IDE & EDITOR FILES ===
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# === PROGRAMMING LANGUAGE SPECIFICS ===
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# JavaScript/Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+package-lock.json
+yarn.lock
+.next/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+*.egg-info/
+
+# PHP
+vendor/
+composer.lock
+.env
+
+# === TEMPORARY & LOG FILES ===
+*.log
+*.tmp
+*.temp
+*.cache
+logs/
+temp/
+tmp/
+
+# === KEEP IMPORTANT FILES ===
+!.gitignore
+!README.md
+!LICENSE
+!*.md
