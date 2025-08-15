@@ -92,8 +92,5 @@ logs/
 temp/
 tmp/
 
-# === KEEP IMPORTANT FILES ===
-!.gitignore
-!README.md
-!LICENSE
-!*.md
+# === GITHUB WORKFLOW FILES ===
+.github/
