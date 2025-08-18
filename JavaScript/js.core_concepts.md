@@ -1,28 +1,38 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Core_concepts
----
 
-#javascript #programming #javascript #core-concepts
-
+title: JavaScript Core Concepts
+#tags: #javascript #programming #core-concepts #fundamentals
 created: 1735912262931
-updated: 1738275940346
----
+updated: 1724457600000
 
+---
 
 <!--#region styles-->
-
 <!--#endregion-->
 
-# Introduction To Javascript
+# Introduction To JavaScript
 
-Javascript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a programming language that is characterized as dynamic, weakly typed, prototype-based, and multi-paradigm.
+JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a programming language that is characterized as dynamic, weakly typed, prototype-based, and multi-paradigm.
 
-Javascript is single-threaded, interpreted/JIT Compiled, Prototype-based, Mutli-paradigm, Dynamic, Weakly typed, and is a first-class function language with a non-blocking event loop concurrency model.
+JavaScript is single-threaded, interpreted/JIT Compiled, Prototype-based, Multi-paradigm, Dynamic, Weakly typed, and is a first-class function language with a non-blocking event loop concurrency model.
 
-### Explanation of Terminologies in JavaScript
+## Key Characteristics
+
+### Programming Paradigms
+
+- **Procedural**: Step-by-step instructions
+- **Object-Oriented**: Classes and objects (ES6+)
+- **Functional**: Functions as first-class citizens
+
+### Execution Model
+
+- **Single-threaded**: One main execution thread
+- **Event-driven**: Asynchronous event handling
+- **Non-blocking**: Doesn't halt execution for I/O operations
+
+## Terminologies in JavaScript
 
 #### High-level
 
@@ -74,22 +84,22 @@ JavaScript's concurrency model is based on an event loop, which allows it to han
 
 ### Features of JavaScript
 
--   <b>Lightweight</b>: JavaScript is a lightweight programming language that is easy to learn and use.
+- <b>Lightweight</b>: JavaScript is a lightweight programming language that is easy to learn and use.
 
--   <b>Interpreted</b>: JavaScript is an interpreted language, which means it is executed line by line at runtime.
--   <b>Object-oriented</b>: JavaScript is an object-oriented language that supports object-oriented programming concepts.
--   <b>Functional</b>: JavaScript is a functional language that supports functional programming concepts.
--   <b>Dynamic</b>: JavaScript is a dynamic language that allows variables to be assigned different types of values.
--   <b>Weakly typed</b>: JavaScript is a weakly typed language that allows variables to be implicitly converted to different types.
--   <b>Prototype-based</b>: JavaScript is a prototype-based language that uses prototypes to create objects.
--   <b>Client-side scripting</b>: JavaScript is mainly used for client-side scripting in web development.
--   <b>Cross-platform</b>: JavaScript can run on multiple platforms and operating systems.
--   <b>Open-source</b>: JavaScript is an open-source language with a large community of developers.
--   <b>Versatile</b>: JavaScript can be used for a wide range of applications, including web development, server-side programming, and mobile app development.
--   <b>Scalable</b>: JavaScript is scalable and can be used to build small scripts or large applications.
--   <b>Secure</b>: JavaScript is a secure language that can be used to build secure applications.
--   <b>Fast</b>: JavaScript is a fast language that can be used to build high-performance applications.
--   <b>Popular</b>: JavaScript is one of the most popular programming languages in the world.
--   <b>Modern</b>: JavaScript is a modern language that is constantly evolving with new features and updates.
--   <b>Community-driven</b>: JavaScript has a large and active community of developers who contribute to its growth and development.
--   <b>Versatile</b>: JavaScript can be used for a wide range of applications, including web development, server-side programming, and mobile app development.
+- <b>Interpreted</b>: JavaScript is an interpreted language, which means it is executed line by line at runtime.
+- <b>Object-oriented</b>: JavaScript is an object-oriented language that supports object-oriented programming concepts.
+- <b>Functional</b>: JavaScript is a functional language that supports functional programming concepts.
+- <b>Dynamic</b>: JavaScript is a dynamic language that allows variables to be assigned different types of values.
+- <b>Weakly typed</b>: JavaScript is a weakly typed language that allows variables to be implicitly converted to different types.
+- <b>Prototype-based</b>: JavaScript is a prototype-based language that uses prototypes to create objects.
+- <b>Client-side scripting</b>: JavaScript is mainly used for client-side scripting in web development.
+- <b>Cross-platform</b>: JavaScript can run on multiple platforms and operating systems.
+- <b>Open-source</b>: JavaScript is an open-source language with a large community of developers.
+- <b>Versatile</b>: JavaScript can be used for a wide range of applications, including web development, server-side programming, and mobile app development.
+- <b>Scalable</b>: JavaScript is scalable and can be used to build small scripts or large applications.
+- <b>Secure</b>: JavaScript is a secure language that can be used to build secure applications.
+- <b>Fast</b>: JavaScript is a fast language that can be used to build high-performance applications.
+- <b>Popular</b>: JavaScript is one of the most popular programming languages in the world.
+- <b>Modern</b>: JavaScript is a modern language that is constantly evolving with new features and updates.
+- <b>Community-driven</b>: JavaScript has a large and active community of developers who contribute to its growth and development.
+- <b>Versatile</b>: JavaScript can be used for a wide range of applications, including web development, server-side programming, and mobile app development.

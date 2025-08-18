@@ -1,24 +1,20 @@
-
-> **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
-
 ---
-title: Fundamentals
----
-
-#java #programming #java #fundamentals
-
+title: Java Fundamentals
+#tags: #java #programming #fundamentals #core-concepts
 created: 1739571858911
-updated: 1740595925057
+updated: 1724457600000
 ---
-
 
 <!--#region styles-->
-
 <!--#endregion-->
 
 # Java Fundamentals
 
-## Definitions
+## Overview
+
+Java is a powerful, object-oriented programming language that follows the "write once, run anywhere" philosophy. This guide covers essential Java concepts for beginners and intermediate developers.
+
+## Core Concepts
 
 ### String Concatenation
 
@@ -68,31 +64,31 @@ double randomDouble = random.nextDouble(); // 0.0-1.0
 
 ### Data Types
 
--   [[java/core_concepts/data_types/primitive]]
--   [[java/core_concepts/data_types/reference]]
+- [[java/core_concepts/data_types/primitive]]
+- [[java/core_concepts/data_types/reference]]
 
 ### Input/Output
 
--   [[java/io/scanner]] - Scanner object and methods
--   [[java/io/printf]] - Output formatting
--   [[java/string/format-specifiers]] - Format specifiers: %[flags][width][.precision][format-specifiers]
+- [[java/io/scanner]] - Scanner object and methods
+- [[java/io/printf]] - Output formatting
+- [[java/string/format-specifiers]] - Format specifiers: %[flags][width][.precision][format-specifiers]
 
 ### Operators
 
--   [[java/core_concepts/operators/assignment]] - Assignment operators
--   [[java/core_concepts/operators/augmented-assignment]] - Augmented assignment operators
--   [[java/core_concepts/operators/increment-decrement]] - Increment and decrement operators
--   [[java/core_concepts/operators/precedence]] - PEMDAS and operator precedence
+- [[java/core_concepts/operators/assignment]] - Assignment operators
+- [[java/core_concepts/operators/augmented-assignment]] - Augmented assignment operators
+- [[java/core_concepts/operators/increment-decrement]] - Increment and decrement operators
+- [[java/core_concepts/operators/precedence]] - PEMDAS and operator precedence
 
 ### Control Flow
 
--   [[java/core_concepts/conditionals/if-statements]] - If statements
+- [[java/core_concepts/conditionals/if-statements]] - If statements
 
 ### Utility Classes
 
--   [[java/util/random]] - Random number generation
--   [[java/math]] - Math methods (.pow(), .abs(), .sqrt(), etc.)
--   [[java/string/methods]] - String methods including .isEmpty()
+- [[java/util/random]] - Random number generation
+- [[java/math]] - Math methods (.pow(), .abs(), .sqrt(), etc.)
+- [[java/string/methods]] - String methods including .isEmpty()
 
 ## Key Points
 
@@ -112,6 +108,6 @@ double randomDouble = random.nextDouble(); // 0.0-1.0
 
 ## Related Resources
 
--   [Oracle Java Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
--   [Java Scanner Class Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html)
--   [Java Math Class Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
+- [Oracle Java Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
+- [Java Scanner Class Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html)
+- [Java Math Class Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
