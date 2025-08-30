@@ -42,8 +42,26 @@ String name = scanner.nextLine();
 int age = scanner.nextInt();
 boolean isStudent = scanner.nextBoolean();
 
+// Handle mixed input types (common issue)
+scanner.nextLine(); // Consume leftover newline
+
 // Always close the scanner when done
 scanner.close();
+```
+
+### Improved Input Handling
+
+```java
+// Better practice: Use try-with-resources
+try (Scanner scanner = new Scanner(System.in)) {
+    System.out.print("Enter your name: ");
+    String name = scanner.nextLine();
+
+    System.out.print("Enter your age: ");
+    int age = scanner.nextInt();
+
+    System.out.println("Hello " + name + ", you are " + age + " years old.");
+}
 ```
 
 ### Random Object
