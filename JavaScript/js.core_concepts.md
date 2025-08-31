@@ -25,12 +25,21 @@ JavaScript is single-threaded, interpreted/JIT Compiled, Prototype-based, Multi-
 - **Procedural**: Step-by-step instructions
 - **Object-Oriented**: Classes and objects (ES6+)
 - **Functional**: Functions as first-class citizens
+- **Event-Driven**: Reactive programming with event handlers
 
 ### Execution Model
 
 - **Single-threaded**: One main execution thread
 - **Event-driven**: Asynchronous event handling
 - **Non-blocking**: Doesn't halt execution for I/O operations
+- **Just-In-Time Compiled**: Modern engines compile JavaScript for optimization
+
+### Modern JavaScript Features
+
+- **ES6+ Syntax**: Arrow functions, destructuring, template literals
+- **Async/Await**: Modern asynchronous programming
+- **Modules**: Import/export for code organization
+- **Classes**: Object-oriented programming support
 
 ## Terminologies in JavaScript
 
